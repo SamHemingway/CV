@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Let's Talk!</h1>
+    <ol>
+      <li><a href="mailto:hello@samhemingway.com">Email me</a></li>
+      <li>My address</li>
+      <li>My telephone number</li>
+      <li>
+        <a href="https://www.linkedin.com/sam-hemingway"
+          >Connect with me on LinkedIn</a
+        >
+      </li>
+    </ol>
+    <form action="mailto:samphemingway@icloud.com" method="post" enctype="text/plain">
+      <label for="name">Your name</label>
+      <input id="name" type="text" autocomplete="name" placeholder="Sam Hemingway" />
+      <br />
+      <label for="emailAddress">Your email address</label>
+      <input
+        type="email"
+        name="emailAddress"
+        placeholder="youraddress@icloud.com"
+        id="emailAddress"
+        autocomplete="email"
+      />
+      <br />
+      <label for="message">Your message</label>
+      <br />
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+        placeholder="We're looking to launch a website for..."
+      ></textarea>
+      <br />
+      <label for="newsletterSignUp"
+        >Interested in signing up for my newsletter?</label
+      >
+      <input type="checkbox" name="newsletterSignUp" id="" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
